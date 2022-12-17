@@ -1,0 +1,11 @@
+public class Main {
+    public static void main( String[] args ) {
+    printName();}
+
+       public static void printName(){
+    String firstName  = "Valentin";
+    String middleName  = "Mitkov";
+    String lastname = "Terziev";
+    String fullname  = firstName + " "+ middleName + " " + lastname;
+System.out.println(fullname);
+    }
